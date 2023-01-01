@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+     <!-- Google Fonts Link -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+ 
+     <!-- Google Fonts Link -->
+ 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+ 
+     <!-- Font Awesome Link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+     <!-- CSS Link -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li> <a href="#">Ahmet Nuri Uygun</a> </li>
+        </ul>
+
+        <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./education.html">Education and Experience</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./workspace.html">Workspace</a></li>
+
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+              <label for="lmail">Your mail</label> 
+              <input type="email" name="lmail" id="lmail" placeholder="Your mail...">
+              
+              <label for="country">Type of Question</label>
+              <select id="country" name="country">
+                <option value="australia">General Question</option>
+                <option value="canada">Job Offer</option>
+                <option value="usa">Other Question</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Type Here" style="height:200px"></textarea>
+          
+              <input class="submit" type="submit" value="Submit">
+            </form>
+          </div>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+
+            <li>
+                <ul class="footer-navbar">
+                <li class="header-home" ><a href="./home.html" style="font-size:26px ;">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./education.html">Education and Experience</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./workspace.html">Workspace</a></li>
+
+                <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </li>
+            
+            <li>
+                <ul class="footer-services">
+                <li class="header-services">Services</li>
+                <li><a href="">Web Design</a></li>
+                <li><a href="">Hosting</a></li>
+                <li><a href="">Development</a></li>
+                </ul>
+            </li>
+
+            <li class="header-terms">
+                Terms
+            </li>
+
+            <li class="header-privacy">Privacy Policy</li>
+
+        </ul>
+        
+        <p>All rights reserved &copy 2022</p>
+           
+    </footer>
+</body>
+</html>
