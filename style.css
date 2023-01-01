@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+
+}
+p,a{
+    font-size: 1 vw;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1200px) 
+{
+    .div-card{
+        height: 45rem;
+    }
+    
+}  
+
+ 
